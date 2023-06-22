@@ -15,7 +15,7 @@ void main (){
     printf("Enter higths :");
     scanf("%f",&higths);
     PA
-    color_fot_use = widths+longs+higths;
+    color_fot_use = widths*2+longs*2+higths*2;
     color_fot_use = color_fot_use/3;
     printf("Color for use is  :%.2fGallon",color_fot_use);
 
